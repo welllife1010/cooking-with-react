@@ -1,5 +1,6 @@
 import React from 'react'
 import RecipeList from './RecipeList'
+import '../css/app.css'
 
 function App() {
  return (
@@ -13,17 +14,17 @@ const sampleRecipes = [
     name: 'Plain Chicken',
     servings: 3,
     cookTime: '1:45',
-    instructions: '1. Put salt on Chiecken\n 2. Put chicken in oven\n 3. Eat chiecken',
+    instructions: '1. Put salt on Chiecken\n2. Put chicken in oven\n3. Eat chiecken',
     ingredients: [
       {
         id: 1,
         name: 'Chicken',
-        ampunt: '2 Pounds'
+        amount: '2 Pounds'
       },
       {
         id: 2,
         name: 'Salt',
-        ampunt: '1 Tbs'
+        amount: '1 Tbs'
       }
     ]
   },
@@ -32,17 +33,17 @@ const sampleRecipes = [
     name: 'Plain Pork',
     servings: 5,
     cookTime: '0:45',
-    instructions: '1. Put paprika on pork\n 2. Put pork in oven\n 3. Eat pork',
+    instructions: '1. Put paprika on pork\n2. Put pork in oven\n3. Eat pork',
     ingredients: [
       {
         id: 1,
         name: 'Pork',
-        ampunt: '3 Pounds'
+        amount: '3 Pounds'
       },
       {
         id: 2,
         name: 'Paprika',
-        ampunt: '2 Tbs'
+        amount: '2 Tbs'
       }
     ]
   }
